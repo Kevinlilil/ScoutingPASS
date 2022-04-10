@@ -57,13 +57,6 @@ var config_data = `
         "min":1,
         "max":99999
       },
-      "Auto Start Position": {
-        "code":"as",
-        "title": "Auto Start Position",
-        "type":"field_image",
-        "filename":"2022/field_image.png"
-      }
-    },
     "auton": {
       "Taxi": {
         "code":"at",
@@ -102,11 +95,6 @@ var config_data = `
         "title": "Was Defended",
         "type":"bool"
       },
-      "Wallbot?": {
-        "code":"wbt",
-        "title": "Wallbot?",
-        "type":"bool"
-      },
       "Cargo Intake From": {
         "code":"cif",
         "title": "Cargo Intake From",
@@ -119,13 +107,7 @@ var config_data = `
         },
         "defaultValue":"x"
       },
-      "Shooting Spot": {
-        "code":"ss",
-        "title": "Shooting Spot",
-        "type":"field_image",
-        "filename":"2022/field_image.png"
-      }
-    },
+
     "endgame": {
       "Climb": {
         "code":"c",
